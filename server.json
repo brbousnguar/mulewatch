@@ -1,0 +1,60 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.brbousnguar/mulewatch",
+  "title": "mulewatch",
+  "description": "Read-only MCP server for MuleSoft Anypoint: app logs, archive search, Runtime Manager, Exchange.",
+  "version": "0.1.1",
+  "repository": {
+    "url": "https://github.com/brbousnguar/mulewatch",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "mulewatch",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "ANYPOINT_CLIENT_ID",
+          "description": "Anypoint connected app client id (app acts on its own behalf).",
+          "isRequired": true,
+          "isSecret": false
+        },
+        {
+          "name": "ANYPOINT_CLIENT_SECRET",
+          "description": "Anypoint connected app client secret.",
+          "isRequired": true,
+          "isSecret": true
+        },
+        {
+          "name": "ANYPOINT_ORG_ID",
+          "description": "Business group id to operate on. Defaults to the organization the credentials belong to.",
+          "isRequired": false,
+          "isSecret": false
+        },
+        {
+          "name": "ANYPOINT_ALLOWED_ENVIRONMENTS",
+          "description": "Comma-separated environment names or ids the server is allowed to read. Unset means all visible environments.",
+          "isRequired": false,
+          "isSecret": false
+        },
+        {
+          "name": "ANYPOINT_BASE_URL",
+          "description": "Anypoint control plane host. Defaults to https://anypoint.mulesoft.com.",
+          "isRequired": false,
+          "isSecret": false
+        },
+        {
+          "name": "ANYPOINT_MONITORING_BASE_URL",
+          "description": "Anypoint Monitoring host. Defaults to https://monitoring.anypoint.mulesoft.com.",
+          "isRequired": false,
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}

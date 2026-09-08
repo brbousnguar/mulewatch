@@ -1,0 +1,66 @@
+{
+  "name": "mulewatch",
+  "mcpName": "io.github.brbousnguar/mulewatch",
+  "version": "0.1.1",
+  "description": "Read-only MCP server for MuleSoft Anypoint Platform: application logs, Monitoring Archive search, Runtime Manager, API Manager and Exchange.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "author": "Brahim Bousnguar",
+  "homepage": "https://github.com/brbousnguar/mulewatch#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brbousnguar/mulewatch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brbousnguar/mulewatch/issues"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "mulesoft",
+    "anypoint",
+    "runtime-manager",
+    "cloudhub",
+    "api-manager",
+    "exchange",
+    "logs",
+    "observability",
+    "claude",
+    "cursor"
+  ],
+  "bin": {
+    "mulewatch": "dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "server.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}
