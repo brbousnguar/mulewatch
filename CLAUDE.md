@@ -33,7 +33,7 @@ so `dist/` must ship — `files` in package.json includes it and `prepare` build
 ## Invariants
 
 - **Every tool is read-only.** No deploy, stop, restart or policy mutation. This is a
-  product decision, not an oversight — see PRICING.md.
+  deliberate product decision, not an oversight.
 - **Nothing customer-specific.** No org ids, environment names or hostnames in source.
 - Environments live on **business groups**, not the root organization. `listEnvironments`
   on a root org legitimately returns zero rows; `anypoint_list_business_groups` exists to
