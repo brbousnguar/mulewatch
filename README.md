@@ -4,12 +4,14 @@
   <p><strong>Read-only observability for MuleSoft Anypoint Platform, over MCP.</strong><br/>Application logs, historical archive search, Runtime Manager, API Manager and Exchange — for any Anypoint customer, using their own credentials.</p>
 
   <p>
+    <a href="https://www.npmjs.com/package/mulewatch"><img src="https://img.shields.io/npm/v/mulewatch?style=flat-square&color=cb3837&logo=npm&logoColor=white" alt="mulewatch on npm" /></a>
+    <a href="https://registry.modelcontextprotocol.io/?q=mulewatch"><img src="https://img.shields.io/badge/MCP%20registry-listed-5b21b6?style=flat-square" alt="Listed in the MCP registry" /></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square" alt="Apache-2.0 licensed" /></a>
+    <br/>
     <img src="https://img.shields.io/badge/platform-stdio-174f3d?style=flat-square" alt="Platform" />
     <img src="https://img.shields.io/badge/MCP%20SDK-1.30-5b21b6?style=flat-square" alt="MCP SDK" />
     <img src="https://img.shields.io/badge/Node.js-20%2B-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
     <img src="https://img.shields.io/badge/MuleSoft-Anypoint%20Platform-00A2DF?style=flat-square" alt="MuleSoft Anypoint" />
-    <img src="https://img.shields.io/npm/v/mulewatch?style=flat-square&color=cb3837&logo=npm&logoColor=white" alt="npm" />
-    <img src="https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square" alt="License" />
   </p>
 </div>
 
@@ -293,8 +295,11 @@ Searches Anypoint Exchange for assets in the organization.
 │   ├── archive-parse.ts  # archive log line parsing, date range enumeration
 │   └── errors.ts         # AnypointApiError and message formatting
 ├── test/                 # unit tests for the pure logic
-├── docs/logo.png         # project mark, used in this README
+├── docs/
+│   ├── logo.png          # project mark, used in this README
+│   └── og-image.png      # social preview card
 ├── server.json           # MCP registry manifest
+├── PRICING.md            # positioning notes
 └── .env.example
 ```
 
