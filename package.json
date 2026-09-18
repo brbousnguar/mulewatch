@@ -1,12 +1,12 @@
 {
   "name": "mulewatch",
   "mcpName": "io.github.brbousnguar/mulewatch",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Read-only MCP server for MuleSoft Anypoint Platform: application logs, Monitoring Archive search, Runtime Manager, API Manager and Exchange.",
   "type": "module",
   "license": "Apache-2.0",
   "author": "Brahim Bousnguar",
-  "homepage": "https://github.com/brbousnguar/mulewatch#readme",
+  "homepage": "https://heybrahim.com/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brbousnguar/mulewatch.git"

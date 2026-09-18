@@ -3,17 +3,18 @@
   "name": "io.github.brbousnguar/mulewatch",
   "title": "mulewatch",
   "description": "Read-only MCP server for MuleSoft Anypoint: app logs, archive search, Runtime Manager, Exchange.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "url": "https://github.com/brbousnguar/mulewatch",
     "source": "github"
   },
+  "websiteUrl": "https://heybrahim.com/",
   "packages": [
     {
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "mulewatch",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "transport": {
         "type": "stdio"
       },
