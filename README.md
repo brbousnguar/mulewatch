@@ -13,6 +13,13 @@
     <img src="https://img.shields.io/badge/Node.js-20%2B-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
     <img src="https://img.shields.io/badge/MuleSoft-Anypoint%20Platform-00A2DF?style=flat-square" alt="MuleSoft Anypoint" />
   </p>
+
+  <p>
+    <a href="https://heybrahim.com/notes/mulewatch-anypoint-logs-mcp.html"><strong>How it works</strong></a> ·
+    <a href="https://heybrahim.com/projects/mulewatch.html">Project page</a> ·
+    <a href="https://www.npmjs.com/package/mulewatch">npm</a> ·
+    <a href="https://registry.modelcontextprotocol.io/?q=mulewatch">MCP registry</a>
+  </p>
 </div>
 
 ---
@@ -336,5 +343,5 @@ Apache-2.0. MuleSoft, Anypoint Platform and CloudHub are trademarks of Salesforc
 ---
 
 <div align="center">
-  <sub>Built by <a href="https://github.com/brbousnguar">Brahim Bousnguar</a>, a MuleSoft integration engineer — available for platform and agentic-AI consulting.</sub>
+  <sub>Built by <a href="https://heybrahim.com/">Brahim Bousnguar</a>, a MuleSoft integration engineer — available for platform and agentic-AI consulting.</sub>
 </div>
